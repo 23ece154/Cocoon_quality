@@ -1,0 +1,68 @@
+/* Cocoon Market Table Styles */
+.cocoon-table-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cocoon-table-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+.cocoon-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cocoon-table thead {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.cocoon-table th,
+.cocoon-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.cocoon-table tbody tr {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.cocoon-table tbody tr:nth-child(even) {
+  background-color: #e8f5e9;
+}
+
+.cocoon-table tbody tr:hover {
+  background-color: #c8e6c9;
+}
+
+.cocoon-table td {
+  color: #333;
+}
+
+.cocoon-msg {
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.dashboard-main {
+  margin-top: 110px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* ensure vertical stacking */
+  align-items: center; /* center horizontally */
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden; /* prevent graph overflow */
+}
