@@ -198,7 +198,7 @@ export default function Dashboard() {
           <a href="/live-graphs" className="nav-link">Live Graphs</a>
         </nav>
 
-        <div className="header-profile">
+        {/* <div className="header-profile">
           <p className="profile-text" onClick={() => setShowProfile(!showProfile)}>Profile</p>
           {showProfile && (
             <div className="profile-dropdown">
@@ -230,7 +230,7 @@ export default function Dashboard() {
               )}
             </div>
           )}
-        </div>
+        </div> */}
       </header>
 
       <main className="dashboard-main"  style={{
