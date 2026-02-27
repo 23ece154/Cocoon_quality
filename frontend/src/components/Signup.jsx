@@ -14,7 +14,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/signup", form);
+      const res = await axios.post("https://silkhue.onrender.com/api/auth/signup", form);
       setMsg(res.data.msg);
       setTimeout(() => navigate("/login"), 1000);
     } catch (err) {

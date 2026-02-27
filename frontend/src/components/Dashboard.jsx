@@ -138,7 +138,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchMarketData = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/scrape/cocoon");
+        const res = await axios.get("https://silkhue.onrender.com/api/scrape/cocoon");
         const data = res.data.data;
         setMarkets(data);
 
