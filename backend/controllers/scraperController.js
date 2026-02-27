@@ -4,7 +4,7 @@ import * as cheerio from "cheerio";
 export const scrapeCocoonMarket = async (req, res) => {
   try {
     const { data } = await axios.get("https://tnsericulture.tn.gov.in/cocoonmarket", {
-      timeout: 15000,
+      timeout: 60000,
     });
 
     const $ = cheerio.load(data);

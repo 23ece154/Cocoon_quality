@@ -8,7 +8,9 @@ import scraperRoutes from "./routes/scraper.js";
 dotenv.config();
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: "https://cocoonquality.netlify.app"
+}));
 app.use(express.json());
 
 
