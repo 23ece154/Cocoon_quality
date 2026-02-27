@@ -26,7 +26,7 @@ function CocoonMarket() {
     const fetchData = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get("https://silkhue.onrender.com/api/scrape/cocoon", {
+        const res = await axios.get("http://localhost:5000/api/scrape/cocoon", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
